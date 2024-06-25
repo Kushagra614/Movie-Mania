@@ -4,7 +4,9 @@
     
 }
 body{
-    background-color:linen;
+    
+        background: linear-gradient(to right, #ca5044, #6b5aac);
+      
 }
 .conatiner{
     
@@ -34,19 +36,23 @@ body{
     justify-content:center;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    
     
     
 }
 .btn{
     padding: 5px;
     margin-top: 1rem;
+    border-radius: 5px;
 }
 
 .input_field{
     font-size:larger;
     padding: 0.8rem;
     border-radius: 1rem;
+    border: 2px solid black;
+    background-color: white;
 }
 ul{
     list-style-type: none;
