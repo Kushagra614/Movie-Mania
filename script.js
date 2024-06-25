@@ -55,7 +55,7 @@ function updateData(genre,releaseDate,Popularity,runTime,movieName ){
     genreField.innerText = genre;
     releaseDateField.innerText = releaseDate;
     popularityField.innerText = Popularity;
-    runtimeField.innerText = runTime;
+    runtimeField.innerText = `${runTime}min`;
     console.log(movieName);
 }
 
@@ -78,7 +78,3 @@ const searchMovie = async (movieName) => {
     }
     
 };
-
-
-
-
